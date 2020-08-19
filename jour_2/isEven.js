@@ -6,7 +6,7 @@ function isEven(value) {
 else
     return false;
 }
-console.log("3")
+console.log('3 is even?', isEven(3))
 
 
 
