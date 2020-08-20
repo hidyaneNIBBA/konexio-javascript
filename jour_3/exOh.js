@@ -1,9 +1,12 @@
-// function exOh(x, o) {
-//     if (x == o) {
-//         return 'true';
-//     }  else {
-//         return 'num1 is lower than num2';
-//     }
-// }
 
-// console.log(exOh(xoxo));
+
+const isEqual = function(a, b, opts) {
+    if (a == b) {
+      return 'true' 
+    } else { 
+      return "false" 
+    } 
+  }
+  console.log()
+
+//   pas réussi!
