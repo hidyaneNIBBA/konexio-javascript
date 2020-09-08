@@ -66,3 +66,4 @@ function passwordGen2(num) {
 
 
 console.log(passwordGen2(12))
+console.log(passwordGen2(5))

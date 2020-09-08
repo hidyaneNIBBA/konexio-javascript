@@ -7,3 +7,6 @@ function IsPalindrome(str) {
   }
 }
   console.log(IsPalindrome('racecar'))
+  console.log(IsPalindrome('eye'))
+  console.log(IsPalindrome('never odd or even'))
+  console.log(IsPalindrome('eyes'))

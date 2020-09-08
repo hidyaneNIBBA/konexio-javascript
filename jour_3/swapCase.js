@@ -1,31 +1,5 @@
-// var text = 'Hello World';
-
-// var ans = text.split('').map(function(c){
-//   return c === c.toUpperCase()
-//   ? c.toLowerCase()
-//   : c.toUpperCase()
-// }).join('')
-
-// console.log(ans)
-// console.log(process.argv)
-
-
-
-// function swapCase(letters) {
-//     return letters.replace( /\w/g, function(c) {
-//       if (c === c.toLowerCase()) {
-//         return c.toUpperCase();
-//       } else {
-//         return c.toLowerCase();
-//       }
-//     });
-//   }
-
-
-
-
 function swapCase(text) {
-    return text.split('').map(function(str) {
+    return text.split('').map(function (str) {
         return str === str.toUpperCase() ? str.toLowerCase() : str.toUpperCase()
     }).join('')
 }
@@ -33,6 +7,11 @@ function swapCase(text) {
 console.log(swapCase("Hello World"))
 
 console.log(process.argv)
+
+// Challenge 2
+// Utiliser le process.argv pour créer un programme 
+// qui récupère votre input et utilise cette fonction
+// je n'ai pas vraiment compris l'utilité du challenge 2 ici
 
 
 

@@ -29,3 +29,4 @@ function letterCount(str, search) {
     return compteur
 }
 console.log(letterCount('i'))
+console.log(letterCount('w'))
